@@ -1,0 +1,15 @@
+public class CommandLineArgs {
+    public static void main(String[] args) {
+        if (args.length != 3) {
+            System.out.println(" Argument 1:apple");
+            System.out.println("Argument 2: banana");
+            System.out.println("Argument 3: watermelon");
+            return;
+        }
+
+        System.out.println("You entered the following arguments:");
+        System.out.println("Argument 1: " + args[0]);
+        System.out.println("Argument 2: " + args[1]);
+        System.out.println("Argument 3: " + args[2]);
+    }
+}
